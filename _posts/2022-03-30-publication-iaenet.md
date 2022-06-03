@@ -1,8 +1,8 @@
 ---
-title: "Post: Standard"
+title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Publication
 tags:
   - Post Formats
   - readability
