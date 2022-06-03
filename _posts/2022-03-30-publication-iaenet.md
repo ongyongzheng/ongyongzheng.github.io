@@ -11,9 +11,7 @@ tags:
   - Image Processing
 ---
 
-### <span style="color: grey;">Authors:</span>
-
-### <span style="color: grey;">Yong Zheng Ong, Zuowei Shen, Haizhao Yang</span>
+### <span style="color: grey;">Authors:<br>Yong Zheng Ong, Zuowei Shen, Haizhao Yang</span>
 
 ***********************************************************************
 
