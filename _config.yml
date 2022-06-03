@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Webpage for Yong Zheng, Ong"
+title                    : "Back to Home"
 title_separator          : "-"
-subtitle                 : "Updated 03/06/2022" # site tagline that appears below site title in masthead
+subtitle                 : "Updated June 3, 2022" # site tagline that appears below site title in masthead
 name                     : "Yong Zheng Ong"
 description              : >- # this means to ignore newlines until "baseurl:"
-  "Yong Zheng, Ong's personal webpage | PhD student | National University of Singapore"
+  "Yong Zheng, Ong's personal webpage . PhD Student . National University of Singapore"
 url                      : "https://ongyongzheng.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
