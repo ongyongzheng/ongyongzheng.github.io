@@ -10,7 +10,7 @@ tags:
   - Image Processing
 ---
 
-### <span style="color: grey;">Authors:<br>Yong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang</span>
+### <span style="color: grey;">Authors: <br>Yong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang</span>
 
 ***********************************************************************
 

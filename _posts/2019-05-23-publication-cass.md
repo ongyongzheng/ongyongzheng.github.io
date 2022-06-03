@@ -9,7 +9,7 @@ tags:
   - Signal Processing
 ---
 
-### <span style="color: grey;">Authors:<br>Yong Zheng Ong, Charles K. Chui, Haizhao Yang</span>
+### <span style="color: grey;">Authors: <br>Yong Zheng Ong, Charles K. Chui, Haizhao Yang</span>
 
 ***********************************************************************
 
