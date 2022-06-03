@@ -3,6 +3,7 @@ title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning"
 excerpt_separator: "<!--more-->"
 categories:
   - Publication
+  - Preprint
 tags:
   - Post Formats
   - readability
