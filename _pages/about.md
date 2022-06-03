@@ -3,6 +3,23 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Welcome to my webpage. I am Yong Zheng Ong, a current PhD student at National University of Singapore.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I am concurrently working at Shopee Singapore, under the Industrial Postgraduate Programme.
+
+My current research interests are in deep learning, and I am especially interested in working on discretization invariant operator learning.
+
+### Contact Information:
+
+[Department of Mathematics](https://goo.gl/maps/s6bnXDpFDECwKofE6)<br/>
+National University of Singapore<br/>
+Block S17, 10 Lower Kent Ridge Road<br/>
+Singapore 119076
+
+[Shopee Singapore](https://g.page/shopeesg?share)<br/>
+Shopee Building, 5 Science Park Drive<br/>
+Singapore 118265
+
+Academic Email: [e0011814@u.nus.edu](mailto:e0011814@u.nus.edu)<br/>
+Personal Email: [ongyongzheng@hotmail.com](mailto:ongyongzheng@hotmail.com)<br/>
+Skype: live:ongyongzheng
