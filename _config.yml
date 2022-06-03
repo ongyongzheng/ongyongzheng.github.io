@@ -108,10 +108,7 @@ author:
   location         : "Singapore"
   email            : "e0011814@u.nus.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:e0011814@u.nus.edu"
-    - label: "Website"
+    - label: "Personal Website"
       icon: "fas fa-fw fa-link"
       url: "https://ongyongzheng.github.io/"
     - label: "Facebook"
@@ -151,6 +148,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _publications
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -291,6 +289,14 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # _publications
+  - scope:
+      path: "_publications"
+      type: publications
     values:
       layout: single
       author_profile: true
