@@ -60,41 +60,42 @@ plugins:
 author:
   name   : "Yong Zheng Ong"
   avatar : "/assets/images/profile_72x72.jpeg"
-  bio    : "PhD Student | National University of Singapore | Data Scientist | Researcher"
+  bio    : "PhD Student . National University of Singapore . Data Scientist . Researcher"
+  location: "Singapore"
   links:
+    - label: "Website"
+      icon: "fa-solid fa-globe"
+      url: "https://ongyongzheng.github.io/"
     - label: "Facebook"
       icon: "fa-brands fa-facebook-square"
       url: "https://www.facebook.com/ong.yongzheng"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "www.linkedin.com/in/yongzhengong"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+    - label: "Research Gate"
+      icon: "fa-brands fa-researchgate"
+      url: "https://www.researchgate.net/profile/Yong-Zheng-Ong"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ongyongzheng"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 footer:
   links:
+    - label: "Website"
+      icon: "fa-solid fa-globe"
+      url: "https://ongyongzheng.github.io/"
     - label: "Facebook"
       icon: "fa-brands fa-facebook-square"
       url: "https://www.facebook.com/ong.yongzheng"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
       url: "www.linkedin.com/in/yongzhengong"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+    - label: "Research Gate"
+      icon: "fa-brands fa-researchgate"
+      url: "https://www.researchgate.net/profile/Yong-Zheng-Ong"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ongyongzheng"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -104,7 +105,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      show_date: true
+      # read_time: true
       comments: true
       share: true
       related: true
