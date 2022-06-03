@@ -2,6 +2,7 @@
 title: "Presentation: Digital Rock Imaging Using GAN"
 categories:
   - Talk
+  - Completed
 tags:
   - Generative Adversarial Network
   - Autoencoder
@@ -12,6 +13,8 @@ tags:
 ### <span style="color: grey;">Authors:</span>
 
 ### <span style="color: grey;">Yong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang</span>
+
+### Event: 90-th SEG Annual International Meeting, Houston, TX, USA
 
 ***********************************************************************
 
