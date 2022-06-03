@@ -10,9 +10,7 @@ tags:
   - Image Processing
 ---
 
-### <span style="color: grey;">Authors:</span>
-
-### <span style="color: grey;">Yong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang</span>
+### <span style="color: grey;">Authors:\nYong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang</span>
 
 ### Event: 90-th SEG Annual International Meeting, Houston, TX, USA
 
