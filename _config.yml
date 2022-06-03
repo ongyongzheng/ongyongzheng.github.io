@@ -14,12 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Webpage for Yong Zheng, Ong
+subtitle: Updated 03/06/2022
+name: Yong Zheng Ong
 email: e0011814@u.nus.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Yong Zheng, Ong's personal webpage | PhD student | National University of Singapore
 twitter_username: 
 github_username: ongyongzheng
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -56,34 +58,43 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Yong Zheng Ong"
+  avatar : "/assets/images/profile_72x72.jpeg"
+  bio    : "PhD Student | National University of Singapore | Data Scientist | Researcher"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fa-brands fa-facebook-square"
+      url: "https://www.facebook.com/ong.yongzheng"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "www.linkedin.com/in/yongzhengong"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ongyongzheng"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fa-brands fa-facebook-square"
+      url: "https://www.facebook.com/ong.yongzheng"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "www.linkedin.com/in/yongzhengong"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ongyongzheng"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
   # _posts
