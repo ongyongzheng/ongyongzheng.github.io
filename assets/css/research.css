@@ -53,7 +53,7 @@ html {
 /* color of research page heading*/
 
 .research_work {
-  color: #4e00bb;
+  color: #ECB22E;
 }
 
 /*For Changing background color of body according to theme*/
@@ -167,7 +167,7 @@ body {
 
 .paperTitle {
   padding: 8px 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .researchCitedNumber span,
@@ -185,6 +185,7 @@ body {
 }
 
 .researchY {
+  font-size: 16px;
   font-weight: normal;
   vertical-align: top;
   text-align: left;

@@ -229,9 +229,9 @@ html {
 }
 
 .navbar-brand {
-  font-family: Agustina;
+  font-family: "Kaushan Script", "Sans-Serif";
   font-size: 30px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .navbar {
@@ -774,6 +774,18 @@ Rotate Transition in foote Soical Icon
   background: #2b2a2A;
 }
 
+.rounded-social-buttons .social-button.researchgate {
+  fill: #ffff;
+  background: #2b2a2A;
+  box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.rounded-social-buttons .social-button.researchgate:hover,
+.rounded-social-buttons .social-button.researchgate:focus {
+  color: #000000;
+  background: #2b2a2A;
+}
+
 .rounded-social-buttons .social-button.github {
   fill: #ffff;
   background: #2b2a2A;
@@ -800,7 +812,7 @@ Contact Form In Footer
   font-size: 25px;
   font-weight: 200;
   line-height: 22px;
-  border-bottom: 3px solid #bb86fc;
+  /* border-bottom: 3px solid #bb86fc; */
 }
 
 .form-header {

@@ -8,14 +8,14 @@ const exp = [
     title: "Shopee Postgraduate Programme Candidate",
     cardImage: "assets/images/experience-page/shopee_logo.png",
     place: "Shopee Singapore",
-    time: "(Aug, 2019 - present)",
-    desp: "<li>Built an api for automatic generation of patterned background for product banners.</li> <li>Developed Generative Adversarial Network based models for automatic banner generation and image segmentation projects.</li>",
+    time: "(Aug, 2019 - Present)",
+    desp: "",
   },
   {
     title: "Research Assistant",
     cardImage: "assets/images/experience-page/nus_logo.svg",
     place: "National University of Singapore",
-    time: "(May - Jul, 2018)",
+    time: "(May, 2018 - Jul, 2018)",
     desp: "",
   },
   {
@@ -45,7 +45,7 @@ const showCards2 = () => {
         <article class="card-body">
           <header>
             <div class="title">
-              <h3>${title}</h3>
+              <center><h3>${title}</h3></center>
             </div>
             <p class="meta">
               <span class="pre-heading">${place}</span><br>
@@ -93,7 +93,7 @@ const showCards = () => {
   volunteershipcards.forEach(
     ({ title, cardImage, link }) =>
       (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 600px;width:400px">
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
         <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
         <div class="content">

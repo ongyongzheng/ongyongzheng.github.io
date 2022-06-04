@@ -137,8 +137,9 @@ section > div {
   display: flex;
   flex-direction: column;
   max-height: 80%;
+  max-width: 80%;
   border: none;
-  border-radius: 13px;
+  border-radius: 26px;
   contain: content;
   margin: 4em auto 36px;
   box-shadow: 1px 1px 6px rgba(0, 0, 0, 15%), 2px 2px 7px rgba(0, 0, 0, 14%),
@@ -244,7 +245,7 @@ ul ol {
 }
 
 .heading1 {
-  font-size: 32px;
+  font-size: 42px;
   line-height: 1.2;
   font-weight: bold;
   color: #222;
@@ -267,7 +268,7 @@ ul ol {
 
 .card-body .pre-heading {
   color: var(--meta-col);
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -278,11 +279,11 @@ ul ol {
 }
 
 .card-body .author {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .card-body h3 {
-  font-size: 2rem;
+  font-size: 24px;
   margin-top: 5px;
   margin-bottom: 5px;
   color: var(--head-col);

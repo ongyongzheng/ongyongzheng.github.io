@@ -6,11 +6,10 @@ script.type = 'text/javascript';
 script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
-// Header
-
+// Header for all pages
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
-<a class="navbar-brand" href="index.html">Yong Zheng, Ong </a>
+<a class="navbar-brand" href="index.html">Yong Zheng, Ong</a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
   <div id="js-hamburger" class="hamburger">
@@ -24,9 +23,10 @@ let header = $(`
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="about.html">About Me</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="publications.html">Publications</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="talks.html">Talks</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="about.html">About</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://ongyongzheng.github.io/assets/docs/CV.pdf">CV</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -34,8 +34,7 @@ let header = $(`
 </div>
 </nav>`);
 
-// Footer
-
+// Footer for all pages
 let footer = $(`
 <footer class="footer sticky-bottom"  style="background-color:#2b2a2a;">
   <div class="p-4">
@@ -52,7 +51,8 @@ let footer = $(`
       <div class="row">
         <div class="form-style-6">
           <div class="form-header">
-            <h6 class="display">Get in Touch</h6>
+            <h6 class="display">Let's Connect!</h6>
+            <p></p>
           </div>
             <form name="form1" action="https://formcarry.com/s/l1gv8Vry7ne" method="POST" accept-charset="UTF-8" >
               <input id="name" type="text" name="name" placeholder="Your Name" required/>
@@ -283,8 +283,6 @@ $(window).on("load", function () {
 });
 
 //send button animation
-
-
 $(function submitAnimation() {
   const name = document.querySelector("#name")
   const emailAdress = document.querySelector("#email")
