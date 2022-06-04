@@ -73,12 +73,12 @@ const completed = [
     venue:
       "SEG Technical Program Expanded Abstracts, 2020",
     date: "October 13, 2020",
-    citebox: "popup1",
+    citebox: "popup2",
     image: "assets/images/talks-page/digital_rock_imaging.svg",
     citation: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_NUxmi4xTyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
     abstract:
       "This extended abstract explores the problem of reconstructing 3D μCT samples by filling in ”gaps” between parallel 2D μCT of isotropic rock samples, which reduce technical cost of performing full 3D scans of 3D rock samples. We propose a novel inpainting technique which exploits the isotropic property of such 3D rocks by considering 2D μCT from a different perspective from the given 2D scans. We then employ state of the art invert GAN and AE techniques to produce good inpainting results to reconstruct the 3D sample from the concatenation of inpainted 2D samples. Empirical evidence is presented to show how our proposed method can produce accurate 2D inpainting samples.",
-    absbox: "absPopup1",
+    absbox: "absPopup2",
   },
 ];
 

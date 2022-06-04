@@ -115,7 +115,7 @@ const publication = [
     conferences:
       "Inverse Problems and Imaging, 2022",
     researchYr: "October 30, 2021",
-    citebox: "popup1",
+    citebox: "popup3",
     image: "assets/images/publications-page/publication_default.png",
     citation: {
       vancouver:
@@ -123,7 +123,7 @@ const publication = [
     },
     abstract:
       "This paper introduces a novel generative encoder (GE) framework for generative imaging and image processing tasks like image reconstruction, compression, denoising, inpainting, deblurring, and super-resolution. GE unifies the generative capacity of GANs and the stability of AEs in an optimization framework instead of stacking GANs and AEs into a single network or combining their loss functions as in existing literature. GE provides a novel approach to visualizing relationships between latent spaces and the data space. The GE framework is made up of a pre-training phase and a solving phase. In the former, a GAN with generator \(G\) capturing the data distribution of a given image set, and an AE network with encoder \(E\) that compresses images following the estimated distribution by \(G\) are trained separately, resulting in two latent representations of the data, denoted as the generative and encoding latent space respectively. In the solving phase, given noisy image \(x=\mathcal{P}(x^)\), where \(x^\) is the target unknown image, \(\mathcal{P}\) is an operator adding an addictive, or multiplicative, or convolutional noise, or equivalently given such an image \(x\) in the compressed domain, i.e., given \(m=E(x)\), the two latent spaces are unified via solving the optimization problem \[z^=\mathrm{argmin}_z |E(G(z))-m|_2^2+\lambda|z|_2^2 \] and the image \(x^\) is recovered in a generative way via \(\hat{x}:=G(z^)\approx x^\), where \(\lambda>0\) is a hyperparameter. The unification of the two spaces allows improved performance against corresponding GAN and AE networks while visualizing interesting properties in each latent space.",
-    absbox: "absPopup1",
+    absbox: "absPopup3",
   },
 
   {
@@ -134,7 +134,7 @@ const publication = [
     conferences:
       "SEG Technical Program Expanded Abstracts, 2020",
     researchYr: "September 30, 2020",
-    citebox: "popup2",
+    citebox: "popup4",
     image: "assets/images/publications-page/publication_default.png",
     citation: {
       vancouver:
@@ -142,7 +142,7 @@ const publication = [
     },
     abstract:
       "This extended abstract explores the problem of reconstructing 3D µCT samples by filling in “gaps” between parallel 2D µCT of isotropic rock samples, which reduce the technical cost of performing full 3D scans of 3D rock samples. We propose a novel inpainting technique that exploits the isotropic property of such 3D rocks by considering 2D µCT from a different perspective from the given 2D scans. We then employ state of the art invert GAN and AE techniques to produce good inpainting results to reconstruct the 3D sample from the concatenation of inpainted 2D samples. Empirical evidence is presented to show how our proposed method can produce accurate 2D in-painting samples.",
-    absbox: "absPopup2",
+    absbox: "absPopup4",
   },
 ];
 
