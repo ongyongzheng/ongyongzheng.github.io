@@ -782,8 +782,8 @@ Rotate Transition in foote Soical Icon
 
 .rounded-social-buttons .social-button.researchgate:hover,
 .rounded-social-buttons .social-button.researchgate:focus {
-  color: #000000;
-  background: #2b2a2A;
+  color: #2b2a2A;
+  background: #ffff;
 }
 
 .rounded-social-buttons .social-button.github {
@@ -794,7 +794,7 @@ Rotate Transition in foote Soical Icon
 
 .rounded-social-buttons .social-button.github:hover,
 .rounded-social-buttons .social-button.github:focus {
-  color: #000000;
+  color: #2b2a2A;
   background: #2b2a2A;
 }
 

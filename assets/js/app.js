@@ -99,6 +99,10 @@ let footer = $(`
         </svg>
     </a>
 
+    <a class="social-button researchgate" href="mailto:e0011814@u.nus.edu" target="_blank">
+        <i class="fas fa-envelope"></i>
+    </a>
+
 
     
     </div>
