@@ -76,13 +76,13 @@ const fillData = () => {
                     
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             ABSTRACT
                         </button>
-                        <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${link}', '_blank');">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${link}', '_blank');">
                             READ PAPER
                         </button>
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
                             CITE
                         </button>
                     </div>
@@ -179,13 +179,13 @@ const fillData2 = () => {
                     
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             ABSTRACT
                         </button>
-                        <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${link}', '_blank');">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${link}', '_blank');">
                             READ PAPER
                         </button>
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
+                        <button class="button button-accent button-small text-center button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
                             CITE
                         </button>
                     </div>
