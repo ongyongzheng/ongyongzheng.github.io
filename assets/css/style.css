@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #3b3b3b;
   border-radius: 2px;
   background: #f1f1f1;
 }
@@ -81,20 +81,20 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   max-height: 10px;
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
-  background: #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #3b3b3b;
+  background: #3b3b3b;
   transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ca9eff;
+  background: #505050;
   
 }
 
 /* Custom Scrollbar for Mozilla Firefox*/
 html{
   overflow-y: visible;
-  scrollbar-color: #ca9eff #f1f1f1;
+  scrollbar-color: #3b3b3b #f1f1f1;
   scrollbar-width: auto;
 }
 
@@ -116,7 +116,7 @@ body {
 #btnScrollToTop {
   width: 50px;
   height: 50px;
-  background-color: #bb86fc;
+  background-color: #86c7fc;
   color: #fff;
   margin: 8px;
   border: none;
@@ -272,13 +272,13 @@ html {
 .dark_toggler:checked {
   background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
   transition: background-image 0.9s;
-  box-shadow: 0px 2px 5px 1px rgb(187, 134, 201);
+  box-shadow: 0px 2px 5px 1px rgb(134, 191, 201);
 }
 
 .dark_toggler:checked:before {
   transform: translate(150%);
   transition: all 0.9s;
-  background-color: #bb86fc;
+  background-color: #86c7fc;
 }
 /* end of dark mode toggle switch button */
 
@@ -395,7 +395,7 @@ color: #ffffff !important;
       margin-right: auto;
       bottom: 0;
       width: 32%;
-      border-bottom: 3px solid #6a00bb;
+      border-bottom: 3px solid #86c7fc;
   }
   
   .nav-item-hover::after {
@@ -406,7 +406,7 @@ color: #ffffff !important;
       height: 0.15em;
       bottom: 0;
       width: 0%;
-      background-color: #6a00bb;
+      background-color: #86c7fc;
       transition: all ease-in-out 280ms;
   }
   
@@ -433,7 +433,7 @@ html[light-mode="light"] .nav-link{
   color: #000000 !important;
 }
 html[light-mode="light"] .nav-link:hover{
-  color: 	rgb(106, 0, 187) !important;
+  color: 	rgb(0, 81, 187) !important;
 }
 html[light-mode="light"] .navbar-brand:hover{
   color: #000000 !important;
@@ -812,7 +812,7 @@ Contact Form In Footer
   font-size: 25px;
   font-weight: 200;
   line-height: 22px;
-  /* border-bottom: 3px solid #bb86fc; */
+  /* border-bottom: 3px solid #86c7fc; */
 }
 
 .form-header {
@@ -841,7 +841,7 @@ form {
 }
 
 .form-style-6 h1 {
-  background: #bb86fc;
+  background: #86c7fc;
   font-size: 140%;
   font-weight: 300;
   text-align: center;
@@ -871,7 +871,7 @@ form {
   background: transparent;
   margin-bottom: 4%;
   border: #000;
-  border-bottom: 2px solid #bb86fc;
+  border-bottom: 2px solid #86c7fc;
   padding: 3%;
   color: rgb(107, 105, 105);
   font: 95% Arial, Helvetica, sans-serif;
@@ -888,9 +888,9 @@ form {
 .form-style-6 input[type="url"]:focus,
 .form-style-6 textarea:focus,
 .form-style-6 select:focus {
-  box-shadow: 0 0 5px #bb86fc;
+  box-shadow: 0 0 5px #86c7fc;
   padding: 3%;
-  border: 1px solid #bb86fc;
+  border: 1px solid #86c7fc;
   border-radius: 2px;
 }
 
@@ -902,8 +902,8 @@ form {
   width: 100%;
   margin-top: 2rem;
   padding: 3%;
-  background: #bb86fc;
-  border-bottom: 2px solid #bb86fc;
+  background: #86c7fc;
+  border-bottom: 2px solid #86c7fc;
   border-radius: 23px;
   border-top-style: none;
   border-right-style: none;
@@ -1043,7 +1043,7 @@ outline: none;
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #bb86fc;
+  background: #86c7fc;
 }
 #lnch_btn {
   position: absolute;
