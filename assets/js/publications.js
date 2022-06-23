@@ -111,7 +111,7 @@ const publication = [
     title: "VG-GAN: Conditional GAN Framework for Graphical Design Generation (To Appear in IEEE ICIP 2022)",
     authors:
       "Yong Zheng Ong, Lilei Zheng, Chaowei Feng, Kang Song ",
-    link: "",
+    link: "https://cmsworkshops.com/ICIP2022/papers/accepted_papers.php",
     conferences:
       "29th IEEE International Conference on Image Processing, IEEE ICIP, 2022",
     researchYr: "October 16, 2022",
@@ -119,7 +119,7 @@ const publication = [
     image: "assets/images/publications-page/publication_default.png",
     citation: {
       vancouver:
-        "",
+        "To be updated once published.",
     },
     abstract:
       "This paper introduces a novel conditional framework for generative layout generation tasks with applications in background design generation and scene generation. The framework utilizes vector graphics based methods to achieve scale invariance of the generated layouts, by outputting only the relevant vector layout information, and rendering of the final layout image is done in a post processing step to allow layouts to be scaled arbitrarily. The framework proposes a selection module to target applications in which a choice of initial layout components are not provided, presenting a new application of vector based generation not addressed by existing literature. The model is designed with graphical design applications in mind, in which certain design conditions like themes of a banner are served to the model in an additional conditional vector for conditional generation.",
