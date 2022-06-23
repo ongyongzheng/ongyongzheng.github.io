@@ -5,6 +5,19 @@ AOS.init();
 const upcomingTable = document.querySelector(".upcoming");
 const upcoming = [
   {
+    title: "VG-GAN: Conditional GAN Framework for Graphical Design Generation",
+    link: "",
+    speaker:
+      "Yong Zheng Ong",
+    venue:
+      "29th IEEE International Conference on Image Processing, IEEE ICIP, 2022, Bordeaux, France.",
+    date: "October 16-19, 2022",
+    abstract:
+      "This paper introduces VG-GAN, a novel conditional GAN for graphical design generation tasks with applications in background design, layout and scene generation. VG-GAN utilizes vector-based methods to achieve scale invariance of the generated layouts. Concretely, the GAN model outputs only relevant vector layout information, and the final layout image is rendered in a post-processing step to allow layouts to be scaled arbitrarily. In contrast to existing vector-based generation models that require a choice of initial class relationships, VG-GAN proposes a selection module to automatically learn the class relationships in target applications, presenting a novel application of vector-based generation not addressed by existing literature. VG-GAN is applied on three generation tasks given optional design conditions, namely, banner background generation, document layout generation and clipart scene generation. The results demonstrate the model's effectiveness in learning and generating conditional graphical design.",
+    absbox: "absPopup1",
+  },
+
+  {
     title: "Discretization-Invariant Operator Learning",
     link: "https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=74393",
     speaker:
@@ -69,7 +82,7 @@ const completed = [
     title: "Digital rock image inpanting using GANs",
     link: "https://library.seg.org/doi/10.1190/segam2020-3427515.1",
     speaker:
-      "Yong Zheng Ong, Nan You, Yunyue Elita Li, and Haizhao Yang",
+      "Yong Zheng Ong",
     venue:
       "SEG Technical Program Expanded Abstracts, 2020",
     date: "October 13, 2020",
