@@ -35,13 +35,13 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   --bg-mybtn: rgb(230, 109, 129);
-  --bg-nav: #6617cb;
-  --bg-nav-img: linear-gradient(315deg, #6617cb 0%, #882463 74%);
-  --bg-footer: linear-gradient(315deg, #6617cb 0%, #882463 74%);
+  --bg-nav: #2017cb;
+  --bg-nav-img: linear-gradient(315deg, #2017cb 0%, #243188 74%);
+  --bg-footer: linear-gradient(315deg, #2017cb 0%, #243188 74%);
   --bg: #191919;
   --text: #ffffff;
   --text-color: #fff;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --bg-txt-img: linear-gradient(315deg, #adafd5 0%, #849dff 74%);
   --txt-fill: transparent;
   --col-icon: white;
   --col-bd-radius: black;

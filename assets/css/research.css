@@ -26,7 +26,7 @@ html[light-mode="dark"] {
   --bg1-color: #272727;
   --bg-col: rgba(0, 0, 0, 0);
   --text-gra: ;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --bg-txt-img: linear-gradient(315deg, #adb5d5 0%, #84a5ff 74%);
   --txt-fill: transparent;
   --p-up: #fff;
   --bg-head: rgba(0, 0, 0, 0.877);
@@ -38,7 +38,7 @@ html[light-mode="dark"] {
   --cite-col-txt: #fff;
   --cite-close: rgba(0, 0, 0, 0.192);
   --cite-hover: #fff;
-  --hover-link: rgb(236, 103, 125);
+  --hover-link: rgb(103, 125, 236);
   --shadow-col1: rgb(29, 28, 28);
   --shadow-col2: rgba(34, 34, 34, 0.459);
 }
@@ -402,8 +402,8 @@ body {
 }
 
 .button {
-  border: 1px solid rgb(231, 85, 109);
-  color: rgb(231, 85, 109);
+  border: 1px solid rgb(85, 131, 231);
+  color: rgb(85, 131, 231);
   outline: none;
   background-color: transparent;
   transition: 0.3s;
@@ -419,7 +419,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: rgb(231, 85, 109);
+  background-color: rgb(85, 131, 231);
   color: #fff;
   border-radius: 4px;
   box-shadow: -3px -3px 9px #ffffff73, 2px 2px 9px rgba(94, 104, 121, 0.288);
