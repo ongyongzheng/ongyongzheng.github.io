@@ -2,7 +2,7 @@
 title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning"
 categories:
   - Publication
-  - Preprint
+  - Published
 tags:
   - Discretization Invariant
   - Autoencoder
