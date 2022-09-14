@@ -4,24 +4,6 @@ AOS.init();
 
 const preprintTable = document.querySelector(".preprints");
 const preprint = [
-  {
-    title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning",
-    authors:
-      "Yong Zheng Ong, Zuowei Shen, Haizhao Yang",
-    link: "https://arxiv.org/abs/2203.05142",
-    conferences:
-      "",
-    researchYr: "March 30, 2022",
-    citebox: "popup1",
-    image: "assets/images/publications-page/publication_default.png",
-    citation: {
-      vancouver:
-        "Ong YZ, Shen Z, Yang H. IAE-Net: Integral Autoencoders for Discretization-Invariant Learning. arXiv preprint arXiv:2203.05142. 2022 Mar 30.",
-    },
-    abstract:
-      "Discretization invariant learning aims at learning in the infinite-dimensional function spaces with the capacity to process heterogeneous discrete representations of functions as inputs and/or outputs of a learning model. This paper proposes a novel deep learning framework based on integral autoencoders (IAE-Net) for discretization invariant learning. The basic building block of IAE-Net consists of an encoder and a decoder as integral transforms with data-driven kernels, and a fully connected neural network between the encoder and decoder. This basic building block is applied in parallel in a wide multi-channel structure, which are repeatedly composed to form a deep and densely connected neural network with skip connections as IAE-Net. IAE-Net is trained with randomized data augmentation that generates training data with heterogeneous structures to facilitate the performance of discretization invariant learning. The proposed IAE-Net is tested with various applications in predictive data science, solving forward and inverse problems in scientific computing, and signal/image processing. Compared with alternatives in the literature, IAE-Net achieves state-of-the-art performance in existing applications and creates a wide range of new applications.",
-    absbox: "absPopup1",
-  },
 
   {
     title: "CASS: Cross Adversarial Source Separation via Autoencoder",
@@ -31,7 +13,7 @@ const preprint = [
     conferences:
       "",
     researchYr: "May 23, 2019",
-    citebox: "popup2",
+    citebox: "popup1",
     image: "assets/images/publications-page/publication_default.png",
     citation: {
       vancouver:
@@ -39,7 +21,7 @@ const preprint = [
     },
     abstract:
       "This paper introduces a cross adversarial source separation (CASS) framework via autoencoder, a new model that aims at separating an input signal consisting of a mixture of multiple components into individual components defined via adversarial learning and autoencoder fitting. CASS unifies popular generative networks like auto-encoders (AEs) and generative adversarial networks (GANs) in a single framework. The basic building block that filters the input signal and reconstructs the \(i\)-th target component is a pair of deep neural networks \(\mathcal{EN}_i\) and \(\mathcal{DE}_i\) as an encoder for dimension reduction and a decoder for component reconstruction, respectively. The decoder \(\mathcal{DE}_i\) as a generator is enhanced by a discriminator network \(\mathcal{D}_i\) that favors signal structures of the \(i\)-th component in the \(i\)-th given dataset as guidance through adversarial learning. In contrast with existing practices in AEs which trains each Auto-Encoder independently, or in GANs that share the same generator, we introduce cross adversarial training that emphasizes adversarial relation between any arbitrary network pairs \((\mathcal{DE}_i,\mathcal{D}_j)\), achieving state-of-the-art performance especially when target components share similar data structures.",
-    absbox: "absPopup2",
+    absbox: "absPopup1",
   },
 ];
 
@@ -107,6 +89,25 @@ document.addEventListener("DOMContentLoaded", fillData);
 
 const publicationTable = document.querySelector(".publications");
 const publication = [
+  {
+    title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning",
+    authors:
+      "Yong Zheng Ong, Zuowei Shen, Haizhao Yang",
+    link: "https://arxiv.org/abs/2203.05142",
+    conferences:
+      "JMLR",
+    researchYr: "March 30, 2022",
+    citebox: "popup2",
+    image: "assets/images/publications-page/publication_default.png",
+    citation: {
+      vancouver:
+        "Ong YZ, Shen Z, Yang H. IAE-Net: Integral Autoencoders for Discretization-Invariant Learning. arXiv preprint arXiv:2203.05142. 2022 Mar 30.",
+    },
+    abstract:
+      "Discretization invariant learning aims at learning in the infinite-dimensional function spaces with the capacity to process heterogeneous discrete representations of functions as inputs and/or outputs of a learning model. This paper proposes a novel deep learning framework based on integral autoencoders (IAE-Net) for discretization invariant learning. The basic building block of IAE-Net consists of an encoder and a decoder as integral transforms with data-driven kernels, and a fully connected neural network between the encoder and decoder. This basic building block is applied in parallel in a wide multi-channel structure, which are repeatedly composed to form a deep and densely connected neural network with skip connections as IAE-Net. IAE-Net is trained with randomized data augmentation that generates training data with heterogeneous structures to facilitate the performance of discretization invariant learning. The proposed IAE-Net is tested with various applications in predictive data science, solving forward and inverse problems in scientific computing, and signal/image processing. Compared with alternatives in the literature, IAE-Net achieves state-of-the-art performance in existing applications and creates a wide range of new applications.",
+    absbox: "absPopup2",
+  },
+  
   {
     title: "VG-GAN: Conditional GAN Framework for Graphical Design Generation (To Appear in IEEE ICIP 2022)",
     authors:
