@@ -32,11 +32,13 @@ Discretization invariant learning aims at learning in the infinite-dimensional f
 
 ```
 @misc{ong2022iaenet,
-      title={IAE-Net: Integral Autoencoders for Discretization-Invariant Learning}, 
-      author={Yong Zheng Ong and Zuowei Shen and Haizhao Yang},
-      year={2022},
-      eprint={2203.05142},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      doi = {10.48550/ARXIV.2203.05142},
+      url = {https://arxiv.org/abs/2203.05142},
+      author = {Ong, Yong Zheng and Shen, Zuowei and Yang, Haizhao},
+      keywords = {Machine Learning (cs.LG), Numerical Analysis (math.NA), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+      title = {IAE-Net: Integral Autoencoders for Discretization-Invariant Learning},
+      publisher = {arXiv},
+      year = {2022},
+      copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
