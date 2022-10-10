@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning",
+    title: "Integral Autoencoder Network for Discretization-Invariant Learning",
     cardImage: "assets/images/experience-page/software_icon.png",
     link:
     "https://github.com/ongyongzheng/iae_net",

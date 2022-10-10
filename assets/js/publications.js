@@ -90,10 +90,10 @@ document.addEventListener("DOMContentLoaded", fillData);
 const publicationTable = document.querySelector(".publications");
 const publication = [
   {
-    title: "IAE-Net: Integral Autoencoders for Discretization-Invariant Learning",
+    title: "Integral Autoencoder Network for Discretization-Invariant Learning",
     authors:
       "Yong Zheng Ong, Zuowei Shen, Haizhao Yang",
-    link: "https://arxiv.org/abs/2203.05142",
+    link: "https://jmlr.org/papers/v23/22-0297.html",
     conferences:
       "JMLR",
     researchYr: "March 30, 2022",
@@ -101,7 +101,7 @@ const publication = [
     image: "assets/images/publications-page/publication_default.png",
     citation: {
       vancouver:
-        "Ong YZ, Shen Z, Yang H. IAE-Net: Integral Autoencoders for Discretization-Invariant Learning. arXiv preprint arXiv:2203.05142. 2022 Mar 30.",
+        "Ong YZ, Shen Z, Yang H. IAE-Net: Integral Autoencoders for Discretization-Invariant Learning. Journal of Machine Learning Research. 2022.",
     },
     abstract:
       "Discretization invariant learning aims at learning in the infinite-dimensional function spaces with the capacity to process heterogeneous discrete representations of functions as inputs and/or outputs of a learning model. This paper proposes a novel deep learning framework based on integral autoencoders (IAE-Net) for discretization invariant learning. The basic building block of IAE-Net consists of an encoder and a decoder as integral transforms with data-driven kernels, and a fully connected neural network between the encoder and decoder. This basic building block is applied in parallel in a wide multi-channel structure, which are repeatedly composed to form a deep and densely connected neural network with skip connections as IAE-Net. IAE-Net is trained with randomized data augmentation that generates training data with heterogeneous structures to facilitate the performance of discretization invariant learning. The proposed IAE-Net is tested with various applications in predictive data science, solving forward and inverse problems in scientific computing, and signal/image processing. Compared with alternatives in the literature, IAE-Net achieves state-of-the-art performance in existing applications and creates a wide range of new applications.",
