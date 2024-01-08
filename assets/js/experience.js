@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Instructor, MITB (Analytics Programme)",
+    cardImage: "assets/images/experience-page/smu_logo.jpg",
+    place: "Singapore Management University",
+    time: "(Aug, 2023 - Present)",
+    desp: "",
+  },
+  {
     title: "Shopee Postgraduate Programme Candidate",
     cardImage: "assets/images/experience-page/shopee_logo.png",
     place: "Shopee Singapore",
-    time: "(Aug, 2019 - Present)",
+    time: "(Aug, 2019 - Aug, 2023)",
     desp: "",
   },
   {
